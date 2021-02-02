@@ -1,0 +1,57 @@
+.card-img-top{
+    height:25vh;
+    /* width:auto; */
+    border-radius:20px 20px 0px 0px;
+}
+
+.card{
+    height:60vh;
+    border-radius:20px 20px 0px 0px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 17px rgba(black, 0.5);
+}
+
+.card-text{
+    padding:1.25rem;
+}
+
+.url{
+    word-break: break-all;
+}
+
+.url:hover{
+    text-decoration: none;
+}
+
+.venue{
+    font-size: 11px;
+    word-break: break-all;
+}
+
+.font-11{
+    font-size:11px;
+}
+
+.entryType{
+    border-radius: 50%;
+    background-color: #0A66C2;
+    color:#fff;
+    padding: 5px !important;
+    text-align: center;
+    font-size: 11px;
+    font-family:Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+input.form-control:focus{
+    outline: none !important;
+}
+
+input.search {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
